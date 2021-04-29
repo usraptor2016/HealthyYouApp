@@ -29,6 +29,7 @@ function App() {
     });
   });
 
+  
   useEffect(() => {
     document.querySelector('html').style.scrollBehavior = 'auto';
     window.scroll({ top: 0 });
